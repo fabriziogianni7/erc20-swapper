@@ -1,4 +1,6 @@
 {
     "solidity.compileUsingRemoteVersion": "v0.8.24+commit.e11b9ed9",
-    "solidity.defaultCompiler": "embedded"
+    "solidity.defaultCompiler": "embedded",
+    "[solidity]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"}
 }

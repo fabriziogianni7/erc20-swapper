@@ -144,3 +144,4 @@ node_modules
 /coverage
 /coverage.json
 notes.txt
+.vscode/settings.json

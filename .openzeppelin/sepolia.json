@@ -1,0 +1,94 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0xDB0a3397505628E027a6E652CB5dE16E409EA0d7",
+      "txHash": "0xb5bc45989ca8cb2f0e1d36394443264c282ca69e11dab1cfe3dc48ec16d69b16",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xC86a8eebEb5c500c34f1d253CC8C3F79723986A3",
+      "txHash": "0xd5c3143696c2530dca79bb51750b0681317543911447b1b5cdea4d62297ff481",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "f683661c992cff36ca78becf266f01bdaf5b44aa535697b4d1cfd4743a43dbcc": {
+      "address": "0xbfb729682E3f7b0439bd391Ea3819AC4d799E89C",
+      "txHash": "0x881507b04e4b67fa94227a2344cd3b1560f9c010104560e237ff63085778e810",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "router",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IUniswapV2Router02)3290",
+            "contract": "ERC20Swapper",
+            "src": "contracts/ERC20Swapper.sol:19"
+          },
+          {
+            "label": "locked",
+            "offset": 20,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "ERC20Swapper",
+            "src": "contracts/ERC20Swapper.sol:20"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)298_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_contract(IUniswapV2Router02)3290": {
+            "label": "contract IUniswapV2Router02",
+            "numberOfBytes": "20"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
