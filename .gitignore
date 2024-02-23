@@ -143,3 +143,4 @@ node_modules
 # solidity-coverage files
 /coverage
 /coverage.json
+notes.txt
