@@ -4,7 +4,7 @@ import { ethers, upgrades } from "hardhat";
 import { ERC20Swapper, ERC20Swapper__factory, ERC20, SwapperProxy } from "../typechain-types";
 import * as dotenv from "dotenv";
 import * as ERC20CJson from "@openzeppelin/contracts/build/contracts/ERC20.json";
-import { NOT_SWAPPABLE_TOKEN, SEPOLIA_ROUTER_ADDRESS, SEPOLIA_ROUTER_FACTORY_ADDRESS, TOKEN_TO_SWAP, TOKEN_WITH_NO_LIQUIDITY, WETH } from "./utils/constants";
+import { NOT_SWAPPABLE_TOKEN, SEPOLIA_ROUTER_ADDRESS, SEPOLIA_ROUTER_FACTORY_ADDRESS, TOKEN_TO_SWAP, TOKEN_WITH_NO_LIQUIDITY, WETH } from "../utils/constants";
 dotenv.config();
 
 describe("Test ERC20Swapper Contract", function () {
