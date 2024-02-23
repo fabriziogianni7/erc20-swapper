@@ -2,6 +2,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
+import '@openzeppelin/hardhat-upgrades';
 
 const providerApiKey = process.env.RPC_PROVIDER_API_KEY 
 const config: HardhatUserConfig = {
